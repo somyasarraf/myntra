@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+header{
+  height:66px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.left img{
+  width:30px;
+  height:23px;
+}
+.flex{
+  display: flex;
+}
+.container{/* use to center thing */
+  padding: 0 28px;
+  margin:13px,0px;
+}
+nav{
+  padding-top:14px;
+  font-size:12px;
+}
+nav ul li{
+  list-style-type: none;
+  padding: 0 12px; /* top bottom se zero left and right se 12 */
+}
+
+.items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+
+.space-between{
+  justify-content:space-between;
+}
+
+.uppercase{
+  text-transform: uppercase;
+  font-weight:bolder;
+}
+
+.pad{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+h2{
+  font-weight: bolder;
+  padding-left:50px;
+  padding:20px;
+  color:black;
+}
+
+.search{
+  width:34vw;
+  padding:8px 10px 10px;
+  border:0.1px solid grey;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.homeimg{
+    width: 90vw;
+    padding-left: 20px;
+  
+}
+.items{
+  display:flex;
+  width:12vw;
+  
+}
+.rows{
+  display:flex;
+  padding-left:13px;
+}
+.top{
+   display:flex;
+  padding-left:25px;
+  
+}
+.toppicks{
+  display:flex;
+  width:12vw;
+  padding:10px;
+  
+}
+.luxe{
+   display:flex;
+  padding-left:45px;
+}
+
+.luxepicks{
+   display:flex;
+  width:10vw;
+  padding:10px;
+  background-color: black;
+}
